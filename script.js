@@ -6,7 +6,6 @@ let num = Number(spanText.textContent);
 buttonAdd.addEventListener('click', () => {
     num += 1;
     spanText.textContent = num;
-    console.log('hi');
 });
 
 buttonMinus.addEventListener('click', () => {
